@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer{
+	height: auto;
+}
+
+.copyright{
+	padding: 20px;
+	margin: 0;
+}
+
+.site_title img{
+	float: left;
+	margin-right: 5px;
+}
+
+.site_title h2{
+	padding-top: 40px;
+	margin: 0;	
+	color: #fff;
+	font-size: 17px;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.site_title h2 p{
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	font-size: 26px;
+}
+
+.tbl{
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+
+.tbl tbody tr{
+	border-bottom: 1px solid #ddd;
+}
+
+.tbl tbody tr:nth-child(even){
+	background: #f9f9f9;
+}
+
+.tbl thead tr{
+	border-bottom: 2px solid #ddd;
+}
+
+.tbl thead tr.title{
+	border-bottom: none;
+	background: #eee;
+	font-size: 18px;
+}
+
+.tbl td, .tbl th{
+	padding: 10px;
+	text-align: left;
+	 
+}
